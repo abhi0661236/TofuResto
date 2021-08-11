@@ -1,0 +1,51 @@
+body{
+    height: 100%;
+}
+
+video {
+    z-index: 1;
+}
+
+div {
+    position: relative;
+    z-index: 2;
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 7%;
+    background-color: rgba(0, 128, 128, 0.404);
+    padding-bottom: 1.5%;
+}
+
+div > h1{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 45px;
+    background-color: rgba(255, 0, 0, 0.404);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+div > p{
+    color: rgb(197, 194, 194);
+    padding: 0 2%;
+    
+}
+
+div > a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px 30px;
+    border: 1px solid white;
+    margin-top: 2%;
+}
+
+.center-items{
+    position: fixed; /* Can be absolute also*/
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+}
